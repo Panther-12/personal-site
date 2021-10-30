@@ -12,6 +12,14 @@ class Sections extends React.Component{
     render(){
         return(
             <div className="sections-wrapper">
+                <span id="open" onClick={()=>{
+                    try{
+                    document.querySelector('.top-nav-wrapper').style.width='300px';
+                    }
+                    catch(error){
+                        console.log(error)
+                    }
+               } }>MENU</span>
                 <section id="home">
                     <div className="container">
                         <div className="row title-wrapper">
@@ -36,32 +44,21 @@ class Sections extends React.Component{
                         </div>
                         <div className="row row_2">
                             <div className="col">
-                                <h5>WEB DEVELOPMENT</h5>
-                                <p>Web development refers to the design and of websites and web applications. In this section i have discussed various web technologies that will enable you create your own websites and web applications. The lessons are well structured to accomodate beginners and have clearly outlined topics in each timestamp.</p>
-                                <div className="menu">
-                                    <a href="">HTML</a>
-                                    <a href="">CSS</a>
-                                    <a href="">Flask backend framework</a>
-                                    <a href="">React frontend framework</a>
-                                </div>
+                                <h5>WEB SCRIPTING</h5>
+                                <a href="https://github.com/Panther-12/Express-js-tutorials">HTML</a>
+                                <a href="https://github.com/Panther-12/Express-js-tutorials">CSS</a>
                             </div>
                             <div className="col">
                                 <h5>PROGRAMMING LANGUAGES</h5>
-                                <p>A programming language is a language used to write instruction to a computer. There exists hundreds of programming languages but some among them emerge as the best in terms of flexibility and understandibility. In this section lessons concerning two high level languages are discussed, that is, javascript and python. The lessons are comprehensive and start from basics to very advanced concepts.</p>
-                                <div className="menu">
-                                    <a href="">Basic Python Concepts</a>
-                                    <a href="">Basic Javascript Concepts</a>
-                                </div>
+                                <a href="https://github.com/Panther-12/Express-js-tutorials">Python </a>
+                                <a href="https://github.com/Panther-12/Express-js-tutorials">Javascript</a>
                             </div>
                             <div className="col">
-                                <h5>MACHINE LEARNING AND DATA ANALYSIS</h5>
-                                <p>This section talks about machine learning and data science concepts with python as the base language. Build your own neural network, mine data sets to train the model and test it with real life instances to determine its accuracy.</p>
-                                <div className="menu">
-                                    <a href="">Tensorflow Library</a>
-                                    <a href="">Matplotlib</a>
-                                    <a href="">Keras</a>
-                                    <a href="">Web Scraping</a>
-                                </div>
+                                <h5>WEB FRAMEWORKS</h5>
+                                <a href="https://github.com/Panther-12/Express-js-tutorials">Flask backend framework</a>
+                                <a href="https://github.com/Panther-12/Express-js-tutorials">Node backend framework</a>
+                                <a href="https://github.com/Panther-12/Express-js-tutorials">Express framework</a>
+                                <a href="https://github.com/Panther-12/Express-js-tutorials">React frontend framework</a>
                             </div>
                         </div>
                     </div>
@@ -71,7 +68,7 @@ class Sections extends React.Component{
                         <div className="row">
                             <h5>More about the developer!</h5>
                         </div>
-                        <div className="row">
+                        <div className="row " id="row2">
                             <div className="col image-column">
                                 <img src={owner}></img>
                             </div>
