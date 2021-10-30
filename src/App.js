@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+/* eslint-disable react/jsx-pascal-case */
+/* eslint-disable no-constant-condition */
+/* eslint-disable react/prop-types */
 import './App.css';
+import Top_nav from './top_nav'
+import Sections from './sections_wrapper'
+import Footer from './footer';
+import 'bootstrap/dist/css/bootstrap.css'
+
 
 function App() {
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Top_nav/>
+      <div className="container">
+        <div className="row">
+          <Sections/>
+        </div>
+      </div> 
+      <Footer/>
     </div>
   );
 }
