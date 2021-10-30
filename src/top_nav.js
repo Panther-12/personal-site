@@ -1,6 +1,8 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable react/prop-types */
 import React from "react"
+import logo from "./images/logo.png"
 
 // Class based components
 // It inherits from the main app component
@@ -11,6 +13,7 @@ class Top_nav extends React.Component{
         return(
             <div className="top-nav-wrapper">
                 <div className="logo-wrapper">
+                    <img src={logo}></img>
                 </div>
                 <div className="left-side">
                     <a href="#home">HOME</a>
