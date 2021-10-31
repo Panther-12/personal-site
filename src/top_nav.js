@@ -4,6 +4,7 @@
 /* eslint-disable react/prop-types */
 import React from "react"
 import Logo from "./logo"
+import * as Icon from 'react-bootstrap-icons'
 
 // Class based components
 // It inherits from the main app component
@@ -24,7 +25,7 @@ class Top_nav extends React.Component{
                             console.log(error);
                         }
 
-                        }}>CLOSE
+                        }}><Icon.XLg/>
                     </div>
                 </div>
             </div>

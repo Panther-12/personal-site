@@ -3,6 +3,7 @@
 /* eslint-disable react/prop-types */
 import React from "react"
 import owner from "./images/owner.jpg"
+import * as Icon from 'react-bootstrap-icons'
 
 // Class based components
 // It inherits from the main app component
@@ -12,14 +13,14 @@ class Sections extends React.Component{
     render(){
         return(
             <div className="sections-wrapper">
-                <span id="open" onClick={()=>{
+                <div className="menu" id="open" onClick={()=>{
                     try{
                     document.querySelector('.top-nav-wrapper').style.width='300px';
                     }
                     catch(error){
                         console.log(error)
                     }
-               } }>MENU</span>
+               } }><Icon.List/></div>
                 <section id="home">
                     <div className="container">
                         <div className="row title-wrapper">
