@@ -213,12 +213,12 @@ textarea{
     height:200px;
     border:1px solid black;
 }
-#close #open{
+.nav_btn #open{
     display:none;
 }
 
 /* styling on screens with width smaller than 960px*/
-@media(max-width:960px){
+@media(max-width:640px){
     .top-nav-wrapper{
         display:block;
         align-items:center;
