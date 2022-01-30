@@ -51,15 +51,15 @@ class Sections extends React.Component{
                             </div>
                             <div className="col">
                                 <h5>PROGRAMMING LANGUAGES</h5>
-                                <a href="https://github.com/Panther-12/Express-js-tutorials">Python </a>
+                                <a href="https://github.com/Panther-12/Python-data-structures-and-Algotithms">Python </a>
                                 <a href="https://github.com/Panther-12/Express-js-tutorials">Javascript</a>
                             </div>
                             <div className="col">
                                 <h5>WEB FRAMEWORKS</h5>
                                 <a href="https://github.com/Panther-12/Express-js-tutorials">Flask backend framework</a>
-                                <a href="https://github.com/Panther-12/Express-js-tutorials">Node backend framework</a>
+                                <a href="https://github.com/Panther-12/NODE-JS-TUTORIAL-">Node backend framework</a>
                                 <a href="https://github.com/Panther-12/Express-js-tutorials">Express framework</a>
-                                <a href="https://github.com/Panther-12/Express-js-tutorials">React frontend framework</a>
+                                <a href="https://github.com/Panther-12/1.1-PORTFOLIO-SITE-PROJECT">React frontend framework</a>
                             </div>
                         </div>
                     </div>
